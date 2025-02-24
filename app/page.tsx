@@ -6,13 +6,13 @@ export default function Home() {
       <div className="grid grid-rows-[auto_1fr_auto] min-h-screen">
         <header className="bg-gradient-to-r from-blue-300 to-red-300 shadow-lg">
           <div className="container mx-auto px-4 py-4">
-            <div className="flex flex-col items-center justify-center text-center gap-2">
-              <div className="relative w-16 h-16">
+            <div className="flex items-center justify-center gap-4">
+              <div className="relative w-32 h-16">
                 <Image
                   src="/image/logo.png"
                   alt="Kelas Bang Dream Logo"
                   fill
-                  className="rounded-full shadow-lg hover:scale-110 transition-transform duration-300 object-cover"
+                  className="hover:scale-110 transition-transform duration-300 object-contain"
                 />
               </div>
               <h1 
@@ -32,6 +32,7 @@ export default function Home() {
           </div>
         </header>
 
+        {/* Rest of the component remains the same */}
         <main className="container mx-auto px-4 py-8">
           <div className="grid gap-8">
             {[
@@ -51,8 +52,8 @@ export default function Home() {
                   { name: "Tomori Takamatsu", image: "/image/tomori.jpg" },
                   { name: "Anon Matsubara", image: "/image/anon.jpg" },
                   { name: "Rana Kaname", image: "/image/rana.jpg" },
-                  { name: "Nagasaki Soyo", image: "/image/soyo.jpg" },
-                  { name: "Shiina Taki", image: "/image/taki.jpg" },
+                  { name: "Nagasaki Soyo", image: "/image/Soyo.jpg" },
+                  { name: "Shiina Taki", image: "/image/Taki.jpg" },
                 ],
               },
               {
