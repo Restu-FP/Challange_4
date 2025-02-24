@@ -51,8 +51,8 @@ export default function Home() {
                   { name: "Tomori Takamatsu", image: "/image/tomori.jpg" },
                   { name: "Anon Matsubara", image: "/image/anon.jpg" },
                   { name: "Rana Kaname", image: "/image/rana.jpg" },
-                  { name: "Nagasaki Soyo", image: "/image/Soyo.jpg" },
-                  { name: "Shiina Taki", image: "/image/Taki.jpg" },
+                  { name: "Nagasaki Soyo", image: "/image/soyo.jpg" },
+                  { name: "Shiina Taki", image: "/image/taki.jpg" },
                 ],
               },
               {
